@@ -18,7 +18,7 @@ import requests
 
 # %% [markdown]
 # This will create an instance of spotipy with the Spotify Developer Account Credentials  
-# The Spotify Developer ID and Secret are stored in environment variables on the system
+# The Spotify Developer ID and Secret are stored in environment variables on the syste
 
 # %%
 sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
